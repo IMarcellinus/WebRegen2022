@@ -84,8 +84,8 @@ body {
 .bola-3 {
     width: 280px;
     height: 280px;
-    left: 600px;
-    top: 260px;
+    left: 550px;
+    top: 280px;
     background: radial-gradient(76.75% 76.75% at 70% 23.25%, #FFD3F5 0%, #FFF8F4 100%);
     display: inline;
 }
@@ -97,7 +97,7 @@ body {
 .text-pilihan{
     display: block;
     text-align: center;
-    font-size: 25px;
+    font-size: 50px;
     background-color: transparent;
     text-decoration: none;
     color: white;
@@ -106,7 +106,7 @@ body {
 .text-pilihan-2{
     display: block;
     text-align: center;
-    font-size: 25px;
+    font-size: 50px;
     background-color: transparent;
     text-decoration: none;
     color: black;
