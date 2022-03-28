@@ -6,7 +6,7 @@ body {
 
 .auth{
     padding: 10px;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     position: relative;
     min-height: 200px;
     /* width: 200px; */
@@ -79,6 +79,15 @@ body {
     left: 1280px;
     top: 260px;
     background: radial-gradient(76.75% 76.75% at 70% 23.25%, #FFD3F5 0%, #FFF8F4 100%);
+}
+
+.bola-3 {
+    width: 280px;
+    height: 280px;
+    left: 600px;
+    top: 260px;
+    background: radial-gradient(76.75% 76.75% at 70% 23.25%, #FFD3F5 0%, #FFF8F4 100%);
+    display: inline;
 }
 
 .garis{

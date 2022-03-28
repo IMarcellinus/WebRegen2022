@@ -18,9 +18,10 @@
 
 <body>
     <!-- Login -->
+    <div class="bola bola-3"></div>
     <div class="bola bola-1"></div>
     <div class="bola bola-2"></div>
-    <div class="auth p-1 pt-3 container">
+    <div class="auth p-1 pt-0 container">
         <div class="navbar pt-1 pb-2 ">
             <div class="navbar-brand">
                 <img src="../img/pcc.jpg" alt="pcc" width="60" height="60">
@@ -34,19 +35,19 @@
             <div class="card-body pt-1">
                 <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
-                        <a class="nav-link active" href="panel">Lihat Camin</a>
+                        <a class="nav-link text-black" style="font-weight: bold;" href="lihatcamin.html">Lihat Camin</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-black" style="font-weight: bold;" href="editcamin">Edit Camin</a>
+                        <a class="nav-link text-black" style="font-weight: bold;" href="editcamin.html">Edit Camin</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-black" style="font-weight: bold;" href=" import">Import User</a>
+                        <a class="nav-link text-white active" style="font-weight: bold;" href="import.html">Import User</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-black" style="font-weight: bold;" href="viewuser">View User</a>
+                        <a class="nav-link text-black" style="font-weight: bold;" href="viewuser.html">View User</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-black" style="font-weight: bold;" href="login/logout">Logout</a>
+                        <a class="nav-link text-black" style="font-weight: bold;" href="">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -61,17 +62,17 @@
                         </div>
                         <div class="form-group">
                             <form>
-                                <div class="form-group mt-4">
+                                <div class="form-group mt-4 ms-2">
                                     <label for="exampleFormControlFile1" class="h5">File Excel</label><br>
                                     <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                 </div>
                             </form>
-                        </div>
-                        <div class="d-flex">
-                            <button type="button" class="btn btn-primary my-1 mt-3 mx-auto" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal" style="font-size: 20px; border-radius: 15px;">
-                                IMPORT
-                            </button>                            
+                            <div class="d-flex">
+                                <button type="button" class="btn btn-primary my-1 mt-3 col-md-1 mx-auto rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal" style="font-size: 20px;">
+                                    IMPORT
+                                </button>                            
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -80,7 +81,7 @@
         
     </div>
     <footer>
-        <p class="textPanitia">Panitia Regen PCC © 2022</p>
+        <p class="textPanitia fixed-bottom">Panitia Regen PCC © 2022</p>
     </footer>
     <!-- Optional JavaScript; choose one of the two! -->
 
